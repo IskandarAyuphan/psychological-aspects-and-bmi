@@ -4,7 +4,7 @@ This folder contains the datasets used in this project, collected from a univers
 
 ## Files
 
-### 1. demography.csv
+### 1. Demography.csv
 Demographic information of the study participants, including basic background variables such as:
 
 - **Height**
@@ -16,7 +16,7 @@ Demographic information of the study participants, including basic background va
 - **Year of study**
 - **Department**
 
-### 2. psychological_aspects.csv
+### 2. Psychological_aspects.csv
 Psychological-related variables collected from the same study, where:
 
 - **M1 – M9**: Questionnaire questions for *Depression*, based on Patient Health Questionnaire-9 (PHQ-9)
