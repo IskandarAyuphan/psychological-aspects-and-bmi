@@ -56,15 +56,12 @@ These constructs are measured using validated questionnaire items and modeled as
   - Descriptive statistics and data visualization
   - Normality test
   - Preliminary tests for factor analysis
-
 - Confirmatory Factor Analysis (CFA)
   - Validation of depression, anxiety, and stress constructs
   - Assessment of reliability and construct validity
-
 - Structural Equation Modeling (SEM)
   - Analysis of bidirectional relationships between psychological aspects and BMI
   - Examination of relationships among psychological constructs
-
 - Estimation Method
   - Maximum Likelihood Robust (MLR) used for CFA and SEM to account for non-normality
 
