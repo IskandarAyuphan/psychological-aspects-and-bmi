@@ -8,7 +8,7 @@ library(mvnormalTest)
 library(dplyr)
 
 #####demography######
-full_demography <- read.csv(file.choose())
+full_demography <- read.csv("data/Demography.csv", header = TRUE)
 head(full_demography)
 str(full_demography)
 demography <- full_demography[-c(1:3)]
@@ -50,7 +50,7 @@ category_summary <- category %>%
 category_summary
 
 #####psychological_aspects#####
-psychological_aspects <- read.csv(file.choose())
+psychological_aspects <- read.csv("data/Psychological_aspects.csv", header = TRUE)
 head(psychological_aspects)
 str(psychological_aspects)
 
@@ -185,4 +185,5 @@ semPaths(fit.semmodel_2.2,
          optimizeLatRes=TRUE,
          esize=2,
 )
+
 
