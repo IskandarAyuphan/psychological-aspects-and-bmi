@@ -1,12 +1,12 @@
 # The Relationship between Psychological Aspects and BMI among Undergraduate Students of Faculty of Science and Technology, UKM
 
-📖 Project Overview
+## 📖 Project Overview
 
 This project investigates the bidirectional relationship between psychological aspects and Body Mass Index (BMI) among undergraduate students at the Faculty of Science and Technology (FST), Universiti Kebangsaan Malaysia (UKM).
 
 Using Structural Equation Modeling (SEM), the study examines how depression, anxiety, and stress relate to BMI, and whether BMI in turn influences these psychological factors. The project aims to contribute to a better understanding of the interaction between mental health and physical health in university students.
 
-🎯 Objectives
+## 🎯 Objectives
 
 The main objectives of this project are:
 
@@ -16,7 +16,7 @@ To analyze the bidirectional relationship between psychological aspects (depress
 
 To examine the relationships among psychological variables using Structural Equation Modeling (SEM)
 
-🧠 Psychological Constructs Studied
+## 🧠 Psychological Constructs Studied
 
 Depression
 
@@ -26,7 +26,7 @@ Stress
 
 These constructs are measured using validated questionnaire items and modeled as latent variables in SEM.
 
-🧪 Methodology
+## 🧪 Methodology
 
 Data Type: Primary data (questionnaire-based)
 
@@ -44,7 +44,7 @@ Structural Equation Modeling (SEM)
 
 Statistical Approach: Maximum Likelihood Estimation (MLE / Robust MLE)
 
-📊 Key Findings
+## 📊 Key Findings
 
 Psychological aspects (depression, anxiety, stress) do not significantly influence BMI
 
