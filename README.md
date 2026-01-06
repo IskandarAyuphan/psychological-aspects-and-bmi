@@ -29,6 +29,11 @@ The main objectives of this project are:
 
 These constructs are measured using validated questionnaire items and modeled as latent variables in SEM.
 
+## 🛠 Tools & Technologies
+
+- Statistical Software: R
+- Packages: lavaan, psych, semTools, ggplot2, semPlot, corrplot, parameters, mvnormalTest, dplyr
+
 ## 🧪 Methodology
 
 Data Type: Primary data (questionnaire-based)
