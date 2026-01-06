@@ -89,15 +89,15 @@ These findings highlight the complex and non-linear nature of mental–physical 
 ### Correlation Matrix Heatmap
 ![Correlation matrix heatmap](visualization/Correlation_plot.png)
 
-### SEM Model 2.1
-![SEM Model 2.1](visualization/SEM_model_2.1.png)
+### SEM Model 1 (Psychological Aspects → BMI)
+![SEM Model 1](visualization/SEM_model_2.1.png)
 
-### SEM Model 2.2
-![SEM Model 2.2](visualization/SEM_model_2.2.png)
+### SEM Model 2 (BMI → Psychological Aspects)
+![SEM Model 2](visualization/SEM_model_2.2.png)
 
 ## 📊 Model Fit Evaluation
 
-### SEM Model 2.1
+### SEM Model 1 (Psychological Aspects → BMI)
 
 | Fit Index | Good fit value |   Acceptable value   | Value | Evaluation |
 |-----------|----------------|----------------------|-------|------------|
@@ -108,7 +108,7 @@ These findings highlight the complex and non-linear nature of mental–physical 
 | TLI       |     ≥ 0.95     |   0.90 ≤ TLI < 0.95  | 0.927 | Acceptable |
 | PGFI      |        -       |        ≥ 0.50        | 0.683 | Acceptable |
 
-### SEM Model 2.2
+### SEM Model 2.2 (BMI → Psychological Aspects)
 
 | Fit Index | Good fit value |   Acceptable value   | Value | Evaluation |
 |-----------|----------------|----------------------|-------|------------|
