@@ -71,7 +71,7 @@ ggplot(category, aes(x = BMI_category)) +
   theme_minimal()
 
 #####psychological_aspects#####
-psychological_aspects <- read.csv("data/Psychological_aspects.csv", header=TRUE) # or use read.csv(file.choose(), header = TRUE) and choose psychological_aspects.csv
+psychological_aspects <- read.csv("data/Psychological_aspects.csv", header=TRUE) # or use read.csv(file.choose(), header = TRUE) and choose Psychological_aspects.csv
 head(psychological_aspects)
 str(psychological_aspects)
 
@@ -206,4 +206,5 @@ semPaths(fit.semmodel_2.2,
          optimizeLatRes=TRUE,
          esize=2,
 )
+
 
