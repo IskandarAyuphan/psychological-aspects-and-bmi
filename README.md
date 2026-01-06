@@ -23,9 +23,9 @@ The main objectives of this project are:
 
 ## 🧠 Psychological Constructs Studied
 
-- Depression (measured using Patient Health Questionnaire-9 – PHQ-9)
-- Anxiety (measured using General Anxiety Disorder-7 – GAD-7)
-- Stress (measured using Perceived Stress Scale-10 – PSS-10)
+- Depression
+- Anxiety
+- Stress
 
 These constructs are measured using validated questionnaire items and modeled as latent variables in SEM.
 
@@ -38,27 +38,17 @@ These constructs are measured using validated questionnaire items and modeled as
 
 **1. Data Collection**
 
-Primary data collected via online questionnaire (Google Forms)
-
-Target population: Undergraduate students of FST, UKM (2024/2025)
-
-Distribution through social media and QR codes
-
-Data collected:
-
-Self-reported height and weight (for BMI calculation)
-
-Demographic information
-
-Psychological measures:
-
-Depression (PHQ-9)
-
-Anxiety (GAD-7)
-
-Stress (PSS-10)
-
-Sampling method: Non-probability convenience sampling
+- Primary data collected via online questionnaire (Google Forms)
+- Target population: Undergraduate students of FST, UKM (2024/2025)
+- Distribution through social media and QR codes
+- Data collected:
+  - Self-reported height and weight (for BMI calculation)
+  - Demographic information
+  - Psychological measures:
+    - Depression (measured using Patient Health Questionnaire-9 – PHQ-9)
+    - Anxiety (measured using General Anxiety Disorder-7 – GAD-7)
+    - Stress (measured using Perceived Stress Scale-10 – PSS-10)
+- Sampling method: Non-probability convenience sampling
 
 **2. Data Analysis**
 
@@ -81,7 +71,7 @@ Sampling method: Non-probability convenience sampling
 **3. Model Fit Evaluation**
 
 - Model adequacy assessed using:
-  - Absolute fit indices ($ \chi^2$ /df, RMSEA, SRMR)
+  - Absolute fit indices (χ²/df, RMSEA, SRMR)
   - Incremental fit indices (CFI, TLI)
   - Parsimony fit indices (PGFI)
 
