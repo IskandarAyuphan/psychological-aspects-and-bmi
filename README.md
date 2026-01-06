@@ -72,15 +72,6 @@ These constructs are measured using validated questionnaire items and modeled as
   - Incremental fit indices (CFI, TLI)
   - Parsimony fit indices (PGFI)
 
-## 🔍 Key Findings
-
-- Psychological aspects (depression, anxiety, stress) do not significantly influence BMI.
-- BMI has a significant but weak and inverse effect on psychological aspects.
-- Strong positive relationships exist among depression, anxiety, and stress.
-- An increase in BMI is associated with a slight decrease in psychological distress levels.
-
-These findings highlight the complex and non-linear nature of mental–physical health interactions among students.
-
 ## 🖼️ Visualizations
 
 ### Distribution of BMI Categories
@@ -124,6 +115,15 @@ These findings highlight the complex and non-linear nature of mental–physical 
 **Note:** 
 - Both models indicate good model fit.
 - Both models report identical fit indices because they share the same CFA measurement model; only the structural paths differ.
+
+## 🔍 Key Findings
+
+- Psychological aspects (depression, anxiety, stress) do not significantly influence BMI.
+- BMI has a significant but weak and inverse effect on psychological aspects.
+- Strong positive relationships exist among depression, anxiety, and stress.
+- An increase in BMI is associated with a slight decrease in psychological distress levels.
+
+These findings highlight the complex and non-linear nature of mental–physical health interactions among students.
 
 ## 🧾 Conclusion
 
