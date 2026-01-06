@@ -71,16 +71,19 @@ Sampling method: Non-probability convenience sampling
   - Validation of depression, anxiety, and stress constructs
   - Assessment of reliability and construct validity
 
--  Structural Equation Modeling (SEM)
+- Structural Equation Modeling (SEM)
   - Analysis of bidirectional relationships between psychological aspects and BMI
   - Examination of relationships among psychological constructs
+
+- Estimation Method
+  - Maximum Likelihood Robust (MLR) used for CFA and SEM to account for non-normality
 
 **3. Model Fit Evaluation**
 
 - Model adequacy assessed using:
-  - Absolute fit indices
-  - Incremental fit indices
-  - Parsimony fit indices
+  - Absolute fit indices ($ \chi^2$ /df, RMSEA, SRMR)
+  - Incremental fit indices (CFI, TLI)
+  - Parsimony fit indices (PGFI)
 
 ## 📊 Key Findings
 
