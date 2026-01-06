@@ -121,7 +121,9 @@ These findings highlight the complex and non-linear nature of mental–physical 
 | PGFI      |        -       |        ≥ 0.50        | 0.683 | Acceptable |
 
 
-**Note:** Both models report identical fit indices because they share the same CFA measurement model; only the structural paths differ.
+**Note:** 
+- Both models indicate good model fit.
+- Both models report identical fit indices because they share the same CFA measurement model; only the structural paths differ.
 
 ## 🧾 Conclusion
 
