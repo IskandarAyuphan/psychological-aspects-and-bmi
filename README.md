@@ -36,21 +36,51 @@ These constructs are measured using validated questionnaire items and modeled as
 
 ## 🧪 Methodology
 
-Data Type: Primary data (questionnaire-based)
+**1. Data Collection**
 
-Population: Undergraduate students of FST, UKM (Session 2024/2025)
+Primary data collected via online questionnaire (Google Forms)
 
-Data Collection: Online survey (QR code & social media distribution)
+Target population: Undergraduate students of FST, UKM (2024/2025)
 
-Analysis Techniques:
+Distribution through social media and QR codes
 
-Exploratory Data Analysis (EDA)
+Data collected:
 
-Confirmatory Factor Analysis (CFA)
+Self-reported height and weight (for BMI calculation)
 
-Structural Equation Modeling (SEM)
+Demographic information
 
-Statistical Approach: Maximum Likelihood Estimation (MLE / Robust MLE)
+Psychological measures:
+
+Depression (PHQ-9)
+
+Anxiety (GAD-7)
+
+Stress (PSS-10)
+
+Sampling method: Non-probability convenience sampling
+
+**2. Data Analysis**
+
+- Exploratory Data Analysis (EDA)
+  - Descriptive statistics and data visualization
+  - Normality test
+  - Preliminary tests for factor analysis
+
+- Confirmatory Factor Analysis (CFA)
+  - Validation of depression, anxiety, and stress constructs
+  - Assessment of reliability and construct validity
+
+-  Structural Equation Modeling (SEM)
+  - Analysis of bidirectional relationships between psychological aspects and BMI
+  - Examination of relationships among psychological constructs
+
+**3. Model Fit Evaluation**
+
+- Model adequacy assessed using:
+  - Absolute fit indices
+  - Incremental fit indices
+  - Parsimony fit indices
 
 ## 📊 Key Findings
 
