@@ -9,7 +9,7 @@ library(mvnormalTest)
 library(dplyr)
 
 #####demography######
-full_demography <- read.csv(file.choose()) # or use read.csv(file.choose(), header = TRUE) and choose Demography.csv
+full_demography <- read.csv("data/Demography.csv", header=TRUE) # or use read.csv(file.choose(), header=TRUE) and choose Demography.csv
 head(full_demography)
 str(full_demography)
 demography <- full_demography[-c(1:3)]
@@ -71,7 +71,7 @@ ggplot(category, aes(x = BMI_category)) +
   theme_minimal()
 
 #####psychological_aspects#####
-psychological_aspects <- read.csv(file.choose()) # or use read.csv(file.choose(), header = TRUE) and choose psychological_aspects.csv
+psychological_aspects <- read.csv("data/Psychological_aspects.csv", header=TRUE) # or use read.csv(file.choose(), header = TRUE) and choose psychological_aspects.csv
 head(psychological_aspects)
 str(psychological_aspects)
 
@@ -206,3 +206,4 @@ semPaths(fit.semmodel_2.2,
          optimizeLatRes=TRUE,
          esize=2,
 )
+
