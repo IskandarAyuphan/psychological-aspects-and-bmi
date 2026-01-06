@@ -82,4 +82,4 @@ These constructs are measured using validated questionnaire items and modeled as
 These findings highlight the complex and non-linear nature of mental–physical health interactions among students.
 
 ## 🖼️ Visualizations
-![Bar Chart for BMI Category](data/Bar_chart_for_BMI_category.png)
+![Bar Chart for BMI Category](visualization/Bar_chart_for_BMI_category.png)
