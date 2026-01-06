@@ -10,11 +10,9 @@ Using Structural Equation Modeling (SEM), the study examines how depression, anx
 
 The main objectives of this project are:
 
-To perform exploratory data analysis (EDA) to understand patterns and characteristics of the data
-
-To analyze the bidirectional relationship between psychological aspects (depression, anxiety, stress) and BMI
-
-To examine the relationships among psychological variables using Structural Equation Modeling (SEM)
+- To perform exploratory data analysis (EDA) to understand patterns and characteristics of the data
+- To analyze the bidirectional relationship between psychological aspects (depression, anxiety, stress) and BMI
+- To examine the relationships among psychological variables using Structural Equation Modeling (SEM)
 
 ## 🧠 Psychological Constructs Studied
 
