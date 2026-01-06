@@ -80,3 +80,6 @@ These constructs are measured using validated questionnaire items and modeled as
 - An increase in BMI is associated with a slight decrease in psychological distress levels.
 
 These findings highlight the complex and non-linear nature of mental–physical health interactions among students.
+
+## 🖼️ Visualizations
+![Bar Chart for BMI Category](data/Bar_chart_for_BMI_category.png)
