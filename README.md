@@ -94,3 +94,9 @@ These findings highlight the complex and non-linear nature of mental–physical 
 
 ### SEM Model 2
 ![SEM Model 2](visualization/SEM_model_2.2.png)
+
+| Fit Index | Value | Recommended |
+|-----------|-------|-------------|
+| RMSEA     | 0.045 | < 0.06      |
+| CFI       | 0.97  | > 0.95      |
+| TLI       | 0.96  | > 0.95      |
