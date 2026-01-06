@@ -1,4 +1,3 @@
-library(readxl)
 library(lavaan)
 library(semPlot)
 library(semTools)
@@ -186,3 +185,4 @@ semPaths(fit.semmodel_2.2,
          optimizeLatRes=TRUE,
          esize=2,
 )
+
