@@ -1,3 +1,4 @@
+library(ggplot2)
 library(lavaan)
 library(semPlot)
 library(semTools)
@@ -8,7 +9,7 @@ library(mvnormalTest)
 library(dplyr)
 
 #####demography######
-full_demography <- read.csv("data/Demography.csv", header = TRUE) # or use read.csv(file.choose(), header = TRUE) and choose Demography.csv
+full_demography <- read.csv(file.choose()) # or use read.csv(file.choose(), header = TRUE) and choose Demography.csv
 head(full_demography)
 str(full_demography)
 demography <- full_demography[-c(1:3)]
@@ -38,9 +39,14 @@ category <- BMI %>%
       BMI >= 18.5 & BMI < 25 ~ "Normal",
       BMI >= 25 & BMI < 30 ~ "Overweight",
       BMI >= 30 ~ "Obesity"
+    ),
+    BMI_category = factor(
+      BMI_category,
+      levels = c("Underweight", "Normal", "Overweight", "Obesity")
     )
   )
 
+# summary for BMI category
 category_summary <- category %>%
   group_by(BMI_category) %>%
   summarise(Count = n(), 
@@ -49,8 +55,23 @@ category_summary <- category %>%
 
 category_summary
 
+# bar chart for BMI category
+ggplot(category, aes(x = BMI_category)) +
+  geom_bar(fill = "#2C7FB8") +
+  geom_text(
+    stat = "count",
+    aes(label = after_stat(count)),
+    vjust = -0.3
+  ) +
+  labs(
+    title = "Distribution of BMI Categories",
+    x = "BMI Category",
+    y = "Count"
+  ) +
+  theme_minimal()
+
 #####psychological_aspects#####
-psychological_aspects <- read.csv("data/Psychological_aspects.csv", header = TRUE) # or use read.csv(file.choose(), header = TRUE) and choose Psychological_aspects.csv
+psychological_aspects <- read.csv(file.choose()) # or use read.csv(file.choose(), header = TRUE) and choose psychological_aspects.csv
 head(psychological_aspects)
 str(psychological_aspects)
 
@@ -81,11 +102,11 @@ boxplot(stress,
 
 # normality test
 
-mardia(fyp)
+mardia(psychological_aspects)
 
 # preliminary tests for factor analysis
 
-cortest.bartlett(cor(psychological_aspects), n=nrow(fyp))
+cortest.bartlett(cor(psychological_aspects), n=nrow(psychological_aspects))
 KMO(r=cor(psychological_aspects))
 corrplot(cor(psychological_aspects), method="number")
 
@@ -185,6 +206,3 @@ semPaths(fit.semmodel_2.2,
          optimizeLatRes=TRUE,
          esize=2,
 )
-
-
-
