@@ -72,7 +72,7 @@ These constructs are measured using validated questionnaire items and modeled as
   - Incremental fit indices (CFI, TLI)
   - Parsimony fit indices (PGFI)
 
-## 📊 Key Findings
+## 🔍 Key Findings
 
 - Psychological aspects (depression, anxiety, stress) do not significantly influence BMI.
 - BMI has a significant but weak and inverse effect on psychological aspects.
@@ -89,15 +89,15 @@ These findings highlight the complex and non-linear nature of mental–physical 
 ### Correlation Matrix Heatmap
 ![Correlation matrix heatmap](visualization/Correlation_plot.png)
 
-### SEM Model 1 (Psychological Aspects → BMI)
+### SEM Model for Psychological Aspects → BMI
 ![SEM Model 1](visualization/SEM_model_2.1.png)
 
-### SEM Model 2 (BMI → Psychological Aspects)
+### SEM Model for BMI → Psychological Aspects
 ![SEM Model 2](visualization/SEM_model_2.2.png)
 
 ## 📊 Model Fit Evaluation
 
-### SEM Model 1 (Psychological Aspects → BMI)
+### SEM Model for Psychological Aspects → BMI
 
 | Fit Index | Good fit value |   Acceptable value   | Value | Evaluation |
 |-----------|----------------|----------------------|-------|------------|
@@ -108,7 +108,8 @@ These findings highlight the complex and non-linear nature of mental–physical 
 | TLI       |     ≥ 0.95     |   0.90 ≤ TLI < 0.95  | 0.927 | Acceptable |
 | PGFI      |        -       |        ≥ 0.50        | 0.683 | Acceptable |
 
-### SEM Model 2.2 (BMI → Psychological Aspects)
+
+### SEM Model for BMI → Psychological Aspects
 
 | Fit Index | Good fit value |   Acceptable value   | Value | Evaluation |
 |-----------|----------------|----------------------|-------|------------|
@@ -118,3 +119,13 @@ These findings highlight the complex and non-linear nature of mental–physical 
 | CFI       |     ≥ 0.95     |   0.90 ≤ CFI < 0.95  | 0.935 |  Good fit  |
 | TLI       |     ≥ 0.95     |   0.90 ≤ TLI < 0.95  | 0.927 | Acceptable |
 | PGFI      |        -       |        ≥ 0.50        | 0.683 | Acceptable |
+
+
+**Note:** Both models report identical fit indices because they share the same CFA measurement model; only the structural paths differ.
+
+## 🧾 Conclusion
+
+This study demonstrates that psychological aspects play an important role in influencing BMI.
+The SEM results confirm that the proposed model is statistically valid and well-fitted, supporting the hypothesized relationships.
+
+These findings highlight the importance of considering psychological factors alongside physical and lifestyle variables when addressing BMI-related outcomes. The results may provide useful insights for health interventions, policy planning, and future research focusing on holistic approaches to BMI management.
