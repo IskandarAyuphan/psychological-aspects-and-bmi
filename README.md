@@ -84,4 +84,13 @@ These findings highlight the complex and non-linear nature of mental–physical 
 ## 🖼️ Visualizations
 
 ### Distribution of BMI Categories
-![Distribution of BMI Categories](visualization/Bar_chart_for_BMI_category.png)
+![Distribution of BMI Categories](visualization/Distribution_of_BMI_categories.png)
+
+### Correlation Matrix Heatmap
+![Correlation matrix heatmap](visualization/Correlation_plot.png)
+
+### SEM Model 1
+![SEM Model 1](visualization/SEM_model_2.1.png)
+
+### SEM Model 2
+![SEM Model 2](visualization/SEM_model_2.2.png)
