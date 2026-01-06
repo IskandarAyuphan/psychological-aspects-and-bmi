@@ -95,8 +95,19 @@ These findings highlight the complex and non-linear nature of mental–physical 
 ### SEM Model 2
 ![SEM Model 2](visualization/SEM_model_2.2.png)
 
-| Fit Index | Value | Recommended |
-|-----------|-------|-------------|
-| RMSEA     | 0.045 | < 0.06      |
-| CFI       | 0.97  | > 0.95      |
-| TLI       | 0.96  | > 0.95      |
+## 📊 Model Fit Evaluation
+
+### SEM Model 1
+
+| Fit Index | Good fit value |   Acceptable value   | Value | Evaluation |
+|-----------|----------------|----------------------|-------|------------|
+| χ²/df     |      ≤ 2       |    2 < χ²/df ≤ 5     | 2.107 | Acceptable |
+| RMSEA     |     ≤ 0.08     |  0.08 < RMSEA ≤ 0.10 | 0.070 |  Good fit  |
+| SRMR      |     ≤ 0.50     |  0.05 < SRMR ≤ 0.08  | 0.043 |  Good fit  |
+| CFI       |     ≥ 0.95     |   0.90 ≤ CFI < 0.95  | 0.935 |  Good fit  |
+| TLI       |     ≥ 0.95     |   0.90 ≤ TLI < 0.95  | 0.927 | Acceptable |
+| PGFI      |        -       |        ≥ 0.50        | 0.683 | Acceptable |
+
+### SEM Model 2
+
+
