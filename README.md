@@ -10,17 +10,22 @@ Using Structural Equation Modeling (SEM), the study examines how depression, anx
 
 The main objectives of this project are:
 
-- To perform exploratory data analysis (EDA) to understand patterns and characteristics of the data
-- To analyze the bidirectional relationship between psychological aspects (depression, anxiety, stress) and BMI
-- To examine the relationships among psychological variables using Structural Equation Modeling (SEM)
+- To perform exploratory data analysis (EDA) to understand patterns and characteristics of the data.
+- To analyze the bidirectional relationship between psychological aspects (depression, anxiety, stress) and BMI.
+- To examine the relationships among psychological variables using Structural Equation Modeling (SEM).
+
+## 🎓 Significance of the Study
+
+- Provides insight into mental and physical health integration among university students.
+- Supports evidence-based university health policy planning.
+- Contributes to academic literature on bidirectional SEM modeling in health studies.
+- Aligns with SDG 3.4: Reducing premature mortality from non-communicable diseases and promoting mental health
 
 ## 🧠 Psychological Constructs Studied
 
-Depression
-
-Anxiety
-
-Stress
+- Depression (measured using Patient Health Questionnaire-9 – PHQ-9)
+- Anxiety (measured using General Anxiety Disorder-7 – GAD-7)
+- Stress (measured using Perceived Stress Scale-10 – PSS-10)
 
 These constructs are measured using validated questionnaire items and modeled as latent variables in SEM.
 
@@ -44,12 +49,9 @@ Statistical Approach: Maximum Likelihood Estimation (MLE / Robust MLE)
 
 ## 📊 Key Findings
 
-Psychological aspects (depression, anxiety, stress) do not significantly influence BMI
-
-BMI has a significant but weak and inverse effect on psychological aspects
-
-Strong positive relationships exist among depression, anxiety, and stress
-
-An increase in BMI is associated with a slight decrease in psychological distress levels
+- Psychological aspects (depression, anxiety, stress) do not significantly influence BMI.
+- BMI has a significant but weak and inverse effect on psychological aspects.
+- Strong positive relationships exist among depression, anxiety, and stress.
+- An increase in BMI is associated with a slight decrease in psychological distress levels.
 
 These findings highlight the complex and non-linear nature of mental–physical health interactions among students.
