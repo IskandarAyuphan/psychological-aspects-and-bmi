@@ -33,3 +33,17 @@ Over the last 2 weeks, how often have you been bothered by the following problem
 ## Stress
 
 ### Perceived Stress Scale-10 (PSS-10)
+
+In the last month, how often have you felt or thought a certain way?
+| Item Code | Question Item |
+|-----------|---------------|
+| S1        | In the last month, how often have you been upset because of something that happened unexpectedly? |
+| S2        | In the last month, how often have you felt that you were unable to control the important things in your life? |
+| S3        | In the last month, how often have you felt nervous and stressed? |
+| S4        | In the last month, how often have you felt confident about your ability to handle your personal problems? |
+| S5        | In the last month, how often have you felt that things were going your way? |
+| S6        | In the last month, how often have you found that you could not cope with all the things that you had to do? |
+| S7        | In the last month, how often have you been able to control irritations in your life? |
+| S8        | In the last month, how often have you felt that you were on top of things? |
+| S9        | In the last month, how often have you been angered because of things that were outside of your control? |
+| S10       | In the last month, how often have you felt difficulties were piling up so high that you could not overcome them? |
