@@ -84,7 +84,7 @@ These constructs are measured using validated questionnaire items and modeled as
 ![Correlation matrix heatmap](visualization/Correlation_plot.png)
 
 **Interpretation:**
-- Items T4, T5, T7, and T8 showed low correlations with most other items, indicating weak linear relationships.  
+- Items S4, S5, S7, and S8 showed low correlations with most other items, indicating weak linear relationships.  
 - Overall, most items demonstrated moderate to strong correlations with each other, except a few with weak correlations.  
 - This correlation matrix will be used as the basis for the KMO test and Bartlett's test of sphericity to assess data suitability for factor analysis.
 
