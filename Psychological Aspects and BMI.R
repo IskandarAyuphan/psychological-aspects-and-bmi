@@ -115,9 +115,9 @@ corrplot(cor(psychological_aspects), method="number")
 # CFA model 1
 
 cfamodel_1 <- '
-  Depression =~ M1 + M2 + M3 + M4 + M5 + M6 + M7 + M8 + M9
-  Anxiety =~ R1 + R2 + R3 + R4 + R5 + R6 + R7
-  Stress =~ T1 + T2 + T3 + T4 + T5 + T6 + T7 + T8 + T9 + T10
+  Depression =~ D1 + D2 + D3 + D4 + D5 + D6 + D7 + D8 + D9
+  Anxiety =~ A1 + A2 + A3 + A4 + A5 + A6 + A7
+  Stress =~ S1 + S2 + S3 + S4 + S5 + S6 + S7 + S8 + S9 + S10
   Overall_BMI =~ BMI
 '
 
@@ -132,9 +132,9 @@ fitMeasures(fit.cfamodel_1, output="text")
 # CFA model 2
 
 cfamodel_2 <- '
-  Depression =~ M1 + M2 + M3 + M4 + M5 + M6 + M7 + M8 + M9
-  Anxiety =~ R1 + R2 + R3 + R4 + R5 + R6 + R7
-  Stress =~ T1 + T2 + T3 + T6 + T9 + T10
+  Depression =~ D1 + D2 + D3 + D4 + D5 + D6 + D7 + D8 + D9
+  Anxiety =~ A1 + A2 + A3 + A4 + A5 + A6 + A7
+  Stress =~ S1 + S2 + S3 + S6 + S9 + S10
   Overall_BMI =~ BMI
 '
 
@@ -152,9 +152,9 @@ fitMeasures(fit.cfamodel_2, output="text")
 
 semmodel_2.1 <- '
   # measurement model
-  Depression =~ M1 + M2 + M3 + M4 + M5 + M6 + M7 + M8 + M9
-  Anxiety =~ R1 + R2 + R3 + R4 + R5 + R6 + R7
-  Stress =~ T1 + T2 + T3 + T6 + T9 + T10
+  Depression =~ D1 + D2 + D3 + D4 + D5 + D6 + D7 + D8 + D9
+  Anxiety =~ A1 + A2 + A3 + A4 + A5 + A6 + A7
+  Stress =~ S1 + S2 + S3 + S6 + S9 + S10
   Overall_BMI =~ BMI
 
   # structural model
@@ -180,9 +180,9 @@ semPaths(fit.semmodel_2.1,
 
 semmodel_2.2 <- '
   # measurement model
-  Depression =~ M1 + M2 + M3 + M4 + M5 + M6 + M7 + M8 + M9
-  Anxiety =~ R1 + R2 + R3 + R4 + R5 + R6 + R7
-  Stress =~ T1 + T2 + T3 + T6 + T9 + T10
+  Depression =~ D1 + D2 + D3 + D4 + D5 + D6 + D7 + D8 + D9
+  Anxiety =~ A1 + A2 + A3 + A4 + A5 + A6 + A7
+  Stress =~ S1 + S2 + S3 + S6 + S9 + S10
   Overall_BMI =~ BMI
 
   # structural model
@@ -206,5 +206,3 @@ semPaths(fit.semmodel_2.2,
          optimizeLatRes=TRUE,
          esize=2,
 )
-
-
