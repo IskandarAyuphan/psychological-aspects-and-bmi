@@ -5,10 +5,10 @@
 Over the **last 2 weeks**, how often have you been bothered by the following problems?
 
 Response scale:
-0 - Not at all;
-1 - Several days;
-2 - More than half the days;
-3 - Nearly every day
+- 0 - Not at all
+- 1 - Several days
+- 2 - More than half the days
+- 3 - Nearly every day
 
 | Item Code | Question Item |
 |-----------|---------------|
@@ -29,10 +29,10 @@ Response scale:
 Over the **last 2 weeks**, how often have you been bothered by the following problems? 
 
 Response scale:
-0 - Not at all;
-1 - Several days;
-2 - More than half the days;
-3 - Nearly every day
+= 0 - Not at all
+- 1 - Several days
+- 2 - More than half the days
+- 3 - Nearly every day
 
 | Item Code | Question Item |
 |-----------|---------------|
@@ -51,11 +51,11 @@ Response scale:
 In the **last month**, how often have you felt or thought a certain way?
 
 Response scale:
-0 - Never;
-1 - Almost never;
-2 - Sometimes;
-3 - Fairly often;
-4 - Very often
+- 0 - Never
+- 1 - Almost never
+- 2 - Sometimes
+- 3 - Fairly often
+- 4 - Very often
 
 | Item Code | Question Item |
 |-----------|---------------|
