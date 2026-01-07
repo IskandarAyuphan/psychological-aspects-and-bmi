@@ -89,10 +89,10 @@ These constructs are measured using validated questionnaire items and modeled as
 - This correlation matrix will be used as the basis for the KMO test and Bartlett's test of sphericity to assess data suitability for factor analysis.
 
 ### SEM Model for Psychological Aspects → BMI
-![SEM Model 1](visualization/SEM_model_2.1.png)
+![SEM Model for Psychological Aspects to BMI](visualization/SEM_model_2.1.png)
 
 ### SEM Model for BMI → Psychological Aspects
-![SEM Model 2](visualization/SEM_model_2.2.png)
+![SEM Model for BMI to Psychological Aspects](visualization/SEM_model_2.2.png)
 
 ## 📊 Model Fit Evaluation
 
