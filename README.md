@@ -91,8 +91,18 @@ These constructs are measured using validated questionnaire items and modeled as
 ### SEM Model for Psychological Aspects → BMI
 ![SEM Model for Psychological Aspects to BMI](visualization/SEM_model_2.1.png)
 
+**Interpretation:**  
+- Stress, anxiety, and depression are well-measured by their indicators, as shown by moderate to high factor loadings.
+- Strong correlations are observed among the psychological constructs, indicating that these mental health factors are interrelated.
+- The structural effects from psychological factors to BMI are negligible, suggesting little to no direct influence on BMI in this model.
+
 ### SEM Model for BMI → Psychological Aspects
 ![SEM Model for BMI to Psychological Aspects](visualization/SEM_model_2.2.png)
+
+**Interpretation:**  
+- Stress, anxiety, and depression are well-measured by their indicators, as shown by moderate to high factor loadings.
+- Strong correlations are observed among the psychological constructs, indicating that these mental health factors are interrelated.
+- The structural effects from BMI to the psychological factors are relatively weak, suggesting weak explain variations in psychological outcomes.
 
 ## 📊 Model Fit Evaluation
 
