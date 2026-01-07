@@ -78,10 +78,15 @@ These constructs are measured using validated questionnaire items and modeled as
 ![Distribution of BMI Categories](visualization/Distribution_of_BMI_categories.png)
 
 **Interpretation:**  
-- The normal BMI category recorded the highest number of respondents (126), followed by underweight (47), overweight (29), and obesity (21).
+- The **normal BMI category** recorded the highest number of respondents (126), followed by **underweight** (47), **overweight** (29), and **obesity** (21).
 
 ### Correlation Matrix Heatmap
 ![Correlation matrix heatmap](visualization/Correlation_plot.png)
+
+**Interpretation:**
+- Items T4, T5, T7, and T8 showed low correlations with most other items, indicating weak linear relationships.  
+- Overall, most items demonstrated moderate to strong correlations with each other, except a few with weak correlations.  
+- This correlation matrix will be used as the basis for the KMO test and Bartlett's test of sphericity to assess data suitability for factor analysis.
 
 ### SEM Model for Psychological Aspects → BMI
 ![SEM Model 1](visualization/SEM_model_2.1.png)
