@@ -3,9 +3,11 @@
 ### Patient Health Questionnaire-9 (PHQ-9)
 
 Over the **last 2 weeks**, how often have you been bothered by the following problems?
-0 - Not at all
-1 - Several days
-2 - More than half the days
+
+Response scale:
+0 - Not at all;
+1 - Several days;
+2 - More than half the days;
 3 - Nearly every day
 
 | Item Code | Question Item |
@@ -25,9 +27,11 @@ Over the **last 2 weeks**, how often have you been bothered by the following pro
 ### General Anxiety Disorder-7 (GAD-7)
 
 Over the **last 2 weeks**, how often have you been bothered by the following problems? 
-0 - Not at all
-1 - Several days
-2 - More than half the days
+
+Response scale:
+0 - Not at all;
+1 - Several days;
+2 - More than half the days;
 3 - Nearly every day
 
 | Item Code | Question Item |
@@ -45,10 +49,12 @@ Over the **last 2 weeks**, how often have you been bothered by the following pro
 ### Perceived Stress Scale-10 (PSS-10)
 
 In the **last month**, how often have you felt or thought a certain way?
-0 - Never
-1 - Almost never
-2 - Sometimes
-3 - Fairly often
+
+Response scale:
+0 - Never;
+1 - Almost never;
+2 - Sometimes;
+3 - Fairly often;
 4 - Very often
 
 | Item Code | Question Item |
