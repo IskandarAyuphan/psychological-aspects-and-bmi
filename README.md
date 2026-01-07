@@ -77,6 +77,9 @@ These constructs are measured using validated questionnaire items and modeled as
 ### Distribution of BMI Categories
 ![Distribution of BMI Categories](visualization/Distribution_of_BMI_categories.png)
 
+**Interpretation:**  
+- The normal BMI category recorded the highest number of respondents (126), followed by underweight (47), overweight (29), and obesity (21).
+
 ### Correlation Matrix Heatmap
 ![Correlation matrix heatmap](visualization/Correlation_plot.png)
 
